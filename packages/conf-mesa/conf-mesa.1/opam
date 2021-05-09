@@ -9,7 +9,7 @@ build: [
 ]
 depends: ["conf-pkg-config" {build}]
 depexts: [
-  ["mesa-common-dev"] {os-family = "debian"}
+  ["libgl1-mesa-dev"] {os-family = "debian"}
   ["mesa-libGL-devel"] {os-family = "fedora" | os-family = "rhel" | os-family = "suse"}
   ["mesa-dev"] {os-distribution = "alpine"}
   ["mesa"] {os-distribution = "arch"}
