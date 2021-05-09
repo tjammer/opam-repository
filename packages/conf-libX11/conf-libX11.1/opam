@@ -19,6 +19,7 @@ depexts: [
   ["libx11"] {os-distribution = "arch"}
   ["libX11-dev"] {os-distribution = "cygwin"}
   ["xquartz" "xorgproto"] {os = "macos" & os-distribution = "homebrew"}
+  ["libX11"] {os-distribution = "freebsd"}
 ]
 synopsis: "Virtual package relying on an Xlib system installation"
 description:
